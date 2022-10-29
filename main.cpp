@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -57,7 +58,7 @@ int main()
     numPennies = remainingAmount;
 
     // Print out how many pennies, nickels, dimes, and quarters are needed
-    cout << "\nThe change required for $" << userAmount << " is: " << endl
+    cout << "\nThe change required for $" << fixed << setprecision(2) << userAmount << " is: " << endl
          << numHundredDollars << "\t$100 Dollar Bills" << endl
          << numFiftyDollars << "\t$50 Dollar Bills" << endl
          << numTwentyDollars << "\t$20 Dollar Bills" << endl
