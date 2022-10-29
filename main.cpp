@@ -13,7 +13,7 @@ int main()
     cout << "Please enter the amount you want change for: $";
     cin >> userAmount;
 
-    // TODO: Use if/else if/else conditionals and modulus to see how many coins are needed
+    // Use modulus based on coin value to see how many coins are needed
     remainingAmount = static_cast<int>(userAmount * 100);
 
     numOneDollars = remainingAmount / 100;
