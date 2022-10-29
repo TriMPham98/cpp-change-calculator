@@ -59,17 +59,17 @@ int main()
 
     // Print out how many dollars and coins are required for the change
     cout << "\nThe change required for $" << fixed << setprecision(2) << userAmount << " is: " << endl
-         << numHundredDollars << "\t$100 Dollar Bills" << endl
-         << numFiftyDollars << "\t$50 Dollar Bills" << endl
-         << numTwentyDollars << "\t$20 Dollar Bills" << endl
-         << numTenDollars << "\t$10 Dollar Bills" << endl
-         << numFiveDollars << "\t$5 Dollar Bills" << endl
-         << numOneDollars << "\t$1 Dollar Bills" << endl
+         << numHundredDollars << "\t$100\tDollar Bills" << endl
+         << numFiftyDollars << "\t$50\tDollar Bills" << endl
+         << numTwentyDollars << "\t$20\tDollar Bills" << endl
+         << numTenDollars << "\t$10\tDollar Bills" << endl
+         << numFiveDollars << "\t$5\tDollar Bills" << endl
+         << numOneDollars << "\t$1\tDollar Bills" << endl
          << endl
-         << numQuarters << "\t25¢ Quarters" << endl
-         << numDimes << "\t10¢ Dimes" << endl
-         << numNickels << "\t5¢ Nickels" << endl
-         << numPennies << "\t1¢ Pennies";
+         << numQuarters << "\t25¢\tQuarters" << endl
+         << numDimes << "\t10¢\tDimes" << endl
+         << numNickels << "\t5¢\tNickels" << endl
+         << numPennies << "\t1¢\tPennies";
 
     return 0;
 }
