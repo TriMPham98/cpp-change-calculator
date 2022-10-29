@@ -64,7 +64,7 @@ int main()
          << numTwentyDollars << "\t$20 Dollar Bills" << endl
          << numTenDollars << "\t$10 Dollar Bills" << endl
          << numFiveDollars << "\t$5 Dollar Bills" << endl
-         << numOneDollars << "\t$1 Dollar Bills" << endl
+         << numOneDollars << "\t$1 Dollar Bills" << endl << endl
          << numQuarters << "\t25¢ Quarters" << endl
          << numDimes << "\t10¢ Dimes" << endl
          << numNickels << "\t5¢ Nickels" << endl
