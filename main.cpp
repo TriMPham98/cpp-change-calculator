@@ -57,7 +57,7 @@ int main()
     // Number of 1¢'s
     numPennies = remainingAmount;
 
-    // Print out how many pennies, nickels, dimes, and quarters are needed
+    // Print out how many dollars and coins are required for the change
     cout << "\nThe change required for $" << fixed << setprecision(2) << userAmount << " is: " << endl
          << numHundredDollars << "\t$100 Dollar Bills" << endl
          << numFiftyDollars << "\t$50 Dollar Bills" << endl
