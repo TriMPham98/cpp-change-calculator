@@ -19,8 +19,19 @@ int main()
     numOneDollars = remainingAmount / 100;
     remainingAmount %= 100;
 
-    // TODO: Print out how many pennies, nickels, dimes, and quarters are needed
-    cout << "The change required is: " << endl
+    numQuarters = remainingAmount / 25;
+    remainingAmount %= 25;
+
+    numDimes = remainingAmount / 10;
+    remainingAmount %= 10;
+
+    numNickels = remainingAmount / 5;
+    remainingAmount %= 5;
+
+    numPennies = remainingAmount;
+
+    // Print out how many pennies, nickels, dimes, and quarters are needed
+    cout << "\nThe change required for $" << userAmount << " is: " << endl
          << numOneDollars << "\t$1 Dollar Bills" << endl
          << numQuarters << "\t25¢ Quarters" << endl
          << numDimes << "\t10¢ Dimes" << endl
