@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    double userAmount;
+    double userAmount = 0;
     int remainingAmount;
     int numOneDollars = 0, numFiveDollars = 0, numTenDollars = 0, numTwentyDollars = 0, numFiftyDollars = 0, numHundredDollars = 0;
     int numPennies = 0, numNickels = 0, numDimes = 0, numQuarters = 0;
@@ -64,7 +64,8 @@ int main()
          << numTwentyDollars << "\t$20 Dollar Bills" << endl
          << numTenDollars << "\t$10 Dollar Bills" << endl
          << numFiveDollars << "\t$5 Dollar Bills" << endl
-         << numOneDollars << "\t$1 Dollar Bills" << endl << endl
+         << numOneDollars << "\t$1 Dollar Bills" << endl
+         << endl
          << numQuarters << "\t25¢ Quarters" << endl
          << numDimes << "\t10¢ Dimes" << endl
          << numNickels << "\t5¢ Nickels" << endl
