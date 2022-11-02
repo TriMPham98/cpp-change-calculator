@@ -58,18 +58,48 @@ int main()
     numPennies = remainingAmount;
 
     // Print out how many dollars and coins are required for the change
-    cout << "\nThe change required for $" << fixed << setprecision(2) << userAmount << " is: " << endl
-         << numHundredDollars << "\t$100\tDollar Bills" << endl
-         << numFiftyDollars << "\t$50\tDollar Bills" << endl
-         << numTwentyDollars << "\t$20\tDollar Bills" << endl
-         << numTenDollars << "\t$10\tDollar Bills" << endl
-         << numFiveDollars << "\t$5\tDollar Bills" << endl
-         << numOneDollars << "\t$1\tDollar Bills" << endl
-         << endl
-         << numQuarters << "\t25¢\tQuarters" << endl
-         << numDimes << "\t10¢\tDimes" << endl
-         << numNickels << "\t5¢\tNickels" << endl
-         << numPennies << "\t1¢\tPennies";
+    cout << "\nThe change required for $" << fixed << setprecision(2) << userAmount << " is: " << endl;
+    if (numHundredDollars > 0)
+    {
+        cout << numHundredDollars << "\t$100\tDollar Bills" << endl;
+    }
+    if (numFiftyDollars > 0)
+    {
+        cout << numFiftyDollars << "\t$50\tDollar Bills" << endl;
+    }
+    if (numTwentyDollars > 0)
+    {
+        cout << numTwentyDollars << "\t$20\tDollar Bills" << endl;
+    }
+    if (numTenDollars > 0)
+    {
+        cout << numTenDollars << "\t$10\tDollar Bills" << endl;
+    }
+    if (numFiveDollars > 0)
+    {
+        cout << numFiveDollars << "\t$5\tDollar Bills" << endl;
+    }
+    if (numOneDollars > 0)
+    {
+        cout << numOneDollars << "\t$1\tDollar Bills" << endl;
+    }
+    cout << endl;
+    if (numQuarters > 0)
+    {
+        cout << numQuarters << "\t25¢\tQuarters" << endl;
+    }
+    if (numDimes > 0)
+    {
+        cout << numDimes << "\t10¢\tDimes" << endl;
+    }
+    if (numNickels > 0)
+    {
+        cout << numNickels << "\t5¢\tNickels" << endl;
+    }
+    if (numPennies > 0)
+    {
+        cout << numPennies << "\t1¢\tPennies" << endl;
+    }
 
     return 0;
 }
