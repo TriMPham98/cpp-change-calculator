@@ -9,7 +9,7 @@ int main()
     int numOneDollars = 0, numFiveDollars = 0, numTenDollars = 0, numTwentyDollars = 0, numFiftyDollars = 0, numHundredDollars = 0;
     int numPennies = 0, numNickels = 0, numDimes = 0, numQuarters = 0;
 
-    cout << "This program calculates how many coins are needed for change." << endl;
+    cout << "This program calculates how many dollars and coins are needed for change." << endl;
 
     // Prompt user for amount
     cout << "Please enter the amount you want change for: $";
