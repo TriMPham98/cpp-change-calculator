@@ -15,7 +15,7 @@ int main()
     while (changeCalcLoop)
     {
         // Prompt user for amount
-        cout << "\nPlease enter the amount you want change for or enter 0 to exit: $";
+        cout << "\nPlease enter an amount you want change for or enter 0 to exit: $";
         cin >> userAmount;
 
         if (userAmount == 0)
@@ -108,6 +108,11 @@ int main()
         if (numPennies > 0)
         {
             cout << numPennies << "\t1¢\tPennies" << endl;
+        }
+
+        if (userAmount < 0)
+        {
+            cout << "Please enter a positive amount." << endl;
         }
     }
 
