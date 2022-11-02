@@ -67,7 +67,7 @@ int main()
         numPennies = remainingAmount;
 
         // Print out how many dollars and coins are required for the change
-        cout << "\nThe change required for $" << fixed << setprecision(2) << userAmount << " is: " << endl;
+        cout << "The change required for $" << fixed << setprecision(2) << userAmount << " is: " << endl;
         if (numHundredDollars > 0)
         {
             cout << numHundredDollars << "\t$100\tDollar Bills" << endl;
