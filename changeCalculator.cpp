@@ -6,7 +6,7 @@ int main()
 {
     bool changeCalcLoop = true;
     double userAmount = 0;
-    int remainingAmount;
+    int remainingAmount = 0;
     int numOneDollars = 0, numFiveDollars = 0, numTenDollars = 0, numTwentyDollars = 0, numFiftyDollars = 0, numHundredDollars = 0;
     int numPennies = 0, numNickels = 0, numDimes = 0, numQuarters = 0;
 
